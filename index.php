@@ -253,6 +253,11 @@
 			font-size: x-large;
 			color: blue;
 		}
+		.image {
+			width: 425px; 
+			height: 285px; 
+			align-content: center;	
+		}
 	</style>
 
 	<p> 
