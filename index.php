@@ -216,6 +216,12 @@
 			position: absolute;
 		}
 	</style>
+	<?php
+		// Balises PHP pour la partie dynamique
+		$yourName = "Asma";
+		$deploymentInfo = "I have deployed this webpage on the AWS cloud using Terraform.";
+	?>
+
 	<div class="penguin">
 		<div class="penguin-bottom">
 			<div class="right-hand"></div>
@@ -250,10 +256,9 @@
 	</style>
 
 	<p> 
-		Hi, I am <strong>Asma</strong>
+		Hi, I am <strong><?php echo $yourName; ?></strong>
 		<br>
-		I have deployed this webpage on the AWS cloud using Terraform.
-		
+		<?php echo $deploymentInfo; ?>
 	</p>
 
 	<center><img src="/Profile.jpg" style="width: 425px; height: 285px; align-content: center;"></center>
