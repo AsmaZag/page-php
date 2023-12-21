@@ -266,6 +266,6 @@
 		<?php echo $deploymentInfo; ?>
 	</p>
 
-	<center><img src="/Profile.jpg" style="width: 425px; height: 285px; align-content: center;"></center>
+	
 </body>
 </html>
